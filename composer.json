@@ -1,0 +1,20 @@
+{
+    "name": "truongmankham81dev/composer-psr-0",
+    "authors": [
+        {
+            "name": "truongmankham81dev",
+            "email": "truongmankham81dev@gmmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "truongmankham81dev/composer1": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "src\\": "",
+            "src\\src\\": "", "_comment": "With PSR-0 specify this namespace is no need.",
+            "src1\\": ""
+        }
+    }
+}
